@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programacion de Sitios Web</title>
+
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        h3 {
+            color: black;
+            text-align: center;
+        }
+
+        body {
+            background-color: rgb(247, 243, 226);
+        }
+
+        table#table1 {
+            width: 40%;
+            border: 1px solid #000;
+            background-color: steelblue;
+            margin: 0% auto;
+            caption-side: bottom;
+        }
+
+        table#table1 th {
+            width: 25%;
+            text-align: center;
+            vertical-align: top;
+            padding: 0.6em;
+            background-color: dodgerblue;
+            color: white;
+        }
+
+        table#table1 tr {
+            width: 25%;
+            text-align: left;
+            vertical-align: top;
+            background-color: lightblue;
+
+        }
+
+        table#table2 {
+            width: 80%;
+            border: 4px solid;
+            background-color: rgb(12, 80, 46);
+            margin: 0 auto;
+            caption-side: top;
+        }
+
+        table#table2 th {
+            text-align: center;
+            vertical-align: middle;
+            padding: 15px;
+            background-color: mediumseagreen;
+            margin: 5%;
+            color: white;
+        }
+
+        table#table2 tr {
+            text-align: left;
+            vertical-align: middle;
+            background-color: rgb(184, 212, 184);
+         }
+    </style>
+
+</head>
+
+<body>
+    <h1> <br> Presaberes UNAD 2021</h1><br><br>
+
+    <h2>Datos básicos: <br> <br>
+        Nombre: Mireya Carrillo Delgado <br>
+        Cédula: 1.115.733.466 <br>
+        Grupo: 21 <br>
+        Skype: m_carrillo91 <br>
+        Teléfono celular: 3104864361 <br>
+        Correo personal: mcarrillodel@gmail.com <br>
+    </h2> <br><br><br>
+
+    <h3>Principales Etiquetas HTML</h3>
+
+
+    <table id="table1">
+        <caption>Tabla de Etiquetas HTML</caption>
+        <tr>
+            <th>Etiqueta</th>
+            <th>Descripcion</th>
+        </tr>
+
+        <tr>
+            <td> &nbsp;&lt;h1&gt; &nbsp;&lt;h2&gt; &nbsp;&lt;h3&gt; <br> &nbsp;&lt;h4&gt; &nbsp;&lt;h5&gt;
+                &nbsp;&lt;h6&gt; </td>
+            <td>Estructura de titulos, h1 es el mas importante en su jerarquia</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;br&gt;</td>
+            <td>Crea un salto de linea</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;p&gt;</td>
+            <td>Crea parrafos</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;img&gt;</td>
+            <td>Insertar una imagen</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;table&gt;</td>
+            <td>Crea una tabla</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;nav&gt;</td>
+            <td>Crea el menu de navegacion</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;iframe&gt;</td>
+            <td>Inserta contenido de otras páginas</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;hr&gt;</td>
+            <td>Crea una linea horizontal</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;video&gt;</td>
+            <td>Inserta un video</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;title&gt;</td>
+            <td>Titulo del sitio</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;footer&gt;</td>
+            <td>Define el pie de página</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;body&gt;</td>
+            <td>Para el contenido</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&lt;a&gt;</td>
+            <td>Para enlaces</td>
+        </tr>
+
+    </table>
+    <br><br><br>
+
+    <h3>Estilos que pueden aplicarse en CSS</h3>
+
+    <table id="table2">
+        <caption>Tabla de estilos aplicables</caption>
+        <tr>
+            <th>Etiqueta</th>
+            <th>Descripción</th>
+            <th>Sintaxis - Ejemplos</th>
+        </tr>
+
+        <tr>
+            <td>colors</td>
+            <td>Agrega color al texto</td>
+            <td>color: blue;<br>color: red;</td>
+
+        </tr>
+
+        <tr>
+            <td>backgrounds&nbsp;</td>
+            <td>Establece algunas o todas las propiedades del color y/o imagen de fondo de un elemento</td>
+            <td>background-color: rgb(184, 212, 184);<br>background-color: yellow;</td>
+        </tr>
+
+        <tr>
+            <td>borders</td>
+            <td>Modifica el aspecto de cada uno de los cuatro bordes de la caja de un elemento</td>
+            <td>border-color: brown;<br>border-right-style: double;</td>
+        </tr>
+
+        <tr>
+            <td>margins</td>
+            <td>Deja un espacio libre alrededor del borde de la caja</td>
+            <td>/* Vertical | Horizontal */ <br>
+                margin: 5% auto; <br> <br>
+                /* Arriba | Derecha | Abajo | Izquierda */ <br>
+                margin: 2px 1em 0 auto;</td>
+        </tr>
+
+        <tr>
+            <td>text</td>
+            <td>Configuración de las propiedades del texto</td>
+            <td>text-align: center; <br> text-decoration: lightblue;</td>
+        </tr>
+
+        <tr>
+            <td>fonts</td>
+            <td>Permite definir las propiedades relacionadas con el tipo de letra</td>
+            <td> font-family: Arial; <br>font-size: x-large;</td>
+        </tr>
+
+        <tr>
+            <td>Height</td>
+            <td>Especifica la altura del area de contenido de un elemento</td>
+            <td>height: 70%; <br>height: 110px; <br>height: 10em; <br>height: auto;</td>
+        </tr>
+
+        <tr>
+            <td>width</td>
+            <td>Especifica la anchura del area de contenido de un elemento</td>
+            <td>width: 300px;<br> width: 25em; <br>width: 75%; <br>width: auto; <br>width: 75% content-box; <br>
+                width: max-content;</td>
+        </tr>
+
+        <tr>
+            <td>links</td>
+            <td>Se pueden configurar las propiedades de estilo de un link.</td>
+            <td>a:link { <br>
+                background-color: gold;<br>
+                color: green;}</td>
+        </tr>
+
+        <tr>
+            <td>lists</td>
+            <td>Se pueden configurar las propiedades de estilo de las listas</td>
+            <td>list-style-type: square; <br> list-style-type: lower-alpha;</td>
+        </tr>
+
+        <tr>
+            <td>tables</td>
+            <td>Configuración de las propiedades de estilo de las tablas</td>
+            <td>table, td, th { <br> border: 1px solid #ddd;<br>text-align: left;} <br>
+                th {background-color: rgb(83, 117, 191);} <br>
+                td {background-color: rgb(131, 164, 235);} <br><br><br>
+
+                table { <br>
+                border-collapse: collapse;<br>width: 100%;} <br>
+                th, td { <br> padding: 15px;} </td>
+        </tr>
+
+        <tr>
+            <td>position</td>
+            <td>Configuración de las propiedades de posicionamiento de un elemento HTML. <br>
+                (Static, relative, fixed, absolute, sticky)</td>
+            <td>position: relative; <br> position: absolute; <br> position: fixed;</td>
+        </tr>
+
+        <tr>
+            <td>Overflow</td>
+            <td>Configuración de las propiedades de desbordamiento de un elemento HTML <br> cuando su contenido es muy
+                grande. <br> (Visible, hidden, scroll, auto)</td>
+            <td>overflow: scroll; <br> overflow: auto; <br> overflow: hidden; <br> overflow: visible; </td>
+        </tr>
+
+        <tr>
+            <td>float</td>
+            <td>Configuración de las propiedades de posicionamiento flotante de un elemento HTML.</td>
+            <td>float: none; <br> float: left; <br> float: right; <br> float: inherit; <br> float: initial;</td>
+        </tr>
+
+    </table> <br><br>
+
+</body>
+
+</html>
